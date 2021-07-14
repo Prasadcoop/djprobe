@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first website</title>
+</head>
+<body>
+<h1>Welcome to the text analyazer. Enter your text below - {{Purpose}}</h1>
+<p>{{analyzed_text}}
+<form action='/analyze' method='get'>
+    <textarea name='text' style='margin: 0px; width: 721px; height: 93px;'></textarea><br>
+    <input type="checkbox" name="analyze"> conform notation<br>
+    <input type="checkbox" name="fullcaps"> uppercase<br>
+    <input type="checkbox" name="newlineremover">New line remover <br>
+    <input type="checkbox" name="charcount"> character count<br>
+
+    <button type="submit"> Analyze Text</button>
+    <a href='http://127.0.0.1:8000/nav/'>navigation</a><br>
+
+</form>
+</body>
+</html>
